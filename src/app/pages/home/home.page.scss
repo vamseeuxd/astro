@@ -1,0 +1,25 @@
+.welcome-card ion-img {
+  max-height: 35vh;
+  overflow: hidden;
+}
+
+.help-text {
+  text-align: center;
+  margin: 30% 10% 0% 10%;
+}
+
+.snippets-list {
+  text-align: center;
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
+
+  .title {
+    font-weight: bold;
+  }
+
+  .tip {
+    color: rgb(148, 144, 149);
+  }
+}
+

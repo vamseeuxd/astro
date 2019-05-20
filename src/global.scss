@@ -1,0 +1,23 @@
+// http://ionicframework.com/docs/theming/
+@import '~@ionic/angular/css/core.css';
+@import '~@ionic/angular/css/normalize.css';
+@import '~@ionic/angular/css/structure.css';
+@import '~@ionic/angular/css/typography.css';
+@import '~@ionic/angular/css/display.css';
+@import '~@ionic/angular/css/padding.css';
+@import '~@ionic/angular/css/float-elements.css';
+@import '~@ionic/angular/css/text-alignment.css';
+@import '~@ionic/angular/css/text-transformation.css';
+@import '~@ionic/angular/css/flex-utils.css';
+
+.mic-icon {
+  background: rgb(236, 74, 87);
+  padding: 20px 10px;
+  border-radius: 20px;
+}
+
+ion-segment-button {
+  ion-ripple-effect {
+    display: none !important;
+  }
+}
